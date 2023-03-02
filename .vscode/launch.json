@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-PortalApplication<portal>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "logixtek.docsoup.oauth.portal.PortalApplication",
+            "projectName": "portal",
+            "args": ""
+        }
+    ]
+}
