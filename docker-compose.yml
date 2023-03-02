@@ -1,4 +1,4 @@
-version: '3'
+version: "3"
 
 services:
   app:
@@ -14,11 +14,11 @@ services:
       KEYCLOAK_PASSWORD: alehap@#
       DB_SCHEMA: dbo
       DB_VENDOR: mssql
-      DB_USER: portal
-      DB_PASSWORD: t3sFRLGFFXvcWioSL2Yr
-      DB_ADDR: doc-soup-dev.coo0qtonrpaq.ap-southeast-1.rds.amazonaws.com
-      DB_DATABASE: portal
-      DB_PORT: 
+      DB_USER: tally_app_dev
+      DB_PASSWORD: HcAVb4whob7eRf
+      DB_ADDR: sql-tally-shared.database.windows.net
+      DB_DATABASE: Org-Dev-Tango_OLD
+      DB_PORT:
       # Uncomment the line below if you want to specify JDBC parameters. The parameter below is just an example, and it shouldn't be used in production without knowledge. It is highly recommended that you read the MySQL JDBC driver documentation in order to use it.
       #JDBC_PARAMS: "Connection Timeout=30000"
     networks:
@@ -29,4 +29,3 @@ networks:
   database_static-network:
     external: false
     enable_ipv6: false
- 
